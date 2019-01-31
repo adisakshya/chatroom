@@ -1,26 +1,33 @@
 import socket
+import sys
 
 def main():
 
 	try:
-
 		s = socket.socket()
 		host = socket.gethostname()
 		port = 1234
-		s.connect((host, port))
+		s.bind((host, port))
+		s.listen(5)
+		print('Waiting for connecion...')			
+		c, addr = s.accept()
+		print('Got connection from IP: ', addr)
 		while True:
-			print('From server: ', s.recv(1024).decode('utf-8'))
+			
 			reply = input('send >> ')
-			s.send(reply.encode('utf-8'))
-		s.close()
+			c.send(reply.encode('utf-8'))
+			msg = c.recv(1024)
+			print(addr, ' >> ', msg.decode('utf-8'))
+		
+		s.close()	
 
 	except KeyboardInterrupt:
 
-		exit(0)
+		sys.exit(0)
 
 	except Exception as error:
 
-		print('Caught error: ' + repr(error))
-			
+		print('Caught Error: ' + repr(error))	
+
 if __name__ == '__main__':
 	main()
