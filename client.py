@@ -8,7 +8,10 @@ def main():
 		host = socket.gethostname()
 		port = 1234
 		s.connect((host, port))
-		print('From server: ', s.recv(1024).decode('utf-8'))
+		while True:
+			print('From server: ', s.recv(1024).decode('utf-8'))
+			reply = input('send >> ')
+			s.send(reply.encode('utf-8'))
 		s.close()
 
 	except KeyboardInterrupt:
