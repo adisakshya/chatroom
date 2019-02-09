@@ -17,6 +17,11 @@ py client.py
 
 Now you have the chatroom active for exchange of messages between server and client.
 
+## Screenshot
+
+# ![chatroom](https://raw.githubusercontent.com/adisakshya/chatroom/master/screenshot.jpg)
+
+
 # To-Do
 
 	1. multiple clients
