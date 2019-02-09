@@ -2,6 +2,7 @@
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
 Welcome to the chatroom repo!
+
 Chatroom is a server-client chatroom written in python 3.7
 
 # Usage
