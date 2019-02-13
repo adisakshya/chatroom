@@ -10,7 +10,7 @@ Chatroom is a server-client chatroom developed using javascript.
 
 ## Screenshot
 
-# ![chatroom](https://raw.githubusercontent.com/adisakshya/chatroom/master/screenshot.jpg)
+# ![chatroom]()
 
 
 # To-Do
