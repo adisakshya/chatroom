@@ -3,10 +3,14 @@
 
 Welcome to the chatroom repo!
 
-Chatroom is a server-client chatroom developed using javascript.
+Chatroom is a server-client chatroom developed on node.js using express.js and socket.io.
 
 # Usage
 
+Run:
+```
+$ node app.js
+```
 
 ## Screenshot
 
