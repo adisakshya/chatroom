@@ -3,19 +3,10 @@
 
 Welcome to the chatroom repo!
 
-Chatroom is a server-client chatroom written in python 3.7
+Chatroom is a server-client chatroom developed using javascript.
 
 # Usage
-You can execute server script by running
-```
-py server.py
-```
-and for client script
-```
-py client.py
-```
 
-Now you have the chatroom active for exchange of messages between server and client.
 
 ## Screenshot
 
@@ -24,9 +15,10 @@ Now you have the chatroom active for exchange of messages between server and cli
 
 # To-Do
 
-	1. multiple clients
-	2. open in web browser
+	1. feature nicknames
+	2. typing...
 	3. sharing files on chat
+	4. login page
 
 Feel free to contribute to fix any problems, or to submit an issue!
 
