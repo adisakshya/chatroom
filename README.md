@@ -1,9 +1,9 @@
-# chatroom
+# pychat
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
-Welcome to the chatroom repo!
+Welcome to the pychat repo!
 
-Chatroom is a server-client chatroom written in python 3.7
+pychat is a server-client chatroom written in python 3.7
 
 # Usage
 You can execute server script by running
@@ -19,7 +19,7 @@ Now you have the chatroom active for exchange of messages between server and cli
 
 ## Screenshot
 
-# ![chatroom](https://raw.githubusercontent.com/adisakshya/chatroom/master/screenshot.jpg)
+# ![pychat](https://raw.githubusercontent.com/adisakshya/pychat/master/screenshot.jpg)
 
 
 # To-Do
@@ -30,6 +30,6 @@ Now you have the chatroom active for exchange of messages between server and cli
 
 Feel free to contribute to fix any problems, or to submit an issue!
 
-Distributed under the MIT license. See [LICENSE](https://github.com/adisakshya/chatroom/blob/master/LICENSE) for more information.
+Distributed under the MIT license. See [LICENSE](https://github.com/adisakshya/pychat/blob/master/LICENSE) for more information.
 
 Adisakshya – [Website](https://adisakshya.github.io)
