@@ -22,12 +22,6 @@ Now you have the chatroom active for exchange of messages between server and cli
 # ![pychat](https://raw.githubusercontent.com/adisakshya/pychat/master/screenshot.jpg)
 
 
-# To-Do
-
-	1. multiple clients
-	2. open in web browser
-	3. sharing files on chat
-
 Feel free to contribute to fix any problems, or to submit an issue!
 
 Distributed under the MIT license. See [LICENSE](https://github.com/adisakshya/pychat/blob/master/LICENSE) for more information.
